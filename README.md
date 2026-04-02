@@ -1,8 +1,14 @@
 AIS-RTS
 
+The top goal of AIS-RTS is to eliminate AI hallucination in software projects. No more guessing function names, assuming classes exist, inventing parameters, or relying on imagined architecture. AIS-RTS gives AI a verified structural understanding of the real codebase so planning and code generation happen from facts, not assumptions.
+
 AIS-RTS is a Scope Relationship Tracking System that helps AI and developers understand exactly what parts of a codebase are involved in a requested change before code is modified. It transforms files, symbols, dependencies, configs, data entities, and workflows into a compact intelligence layer so AI can work from precise scope instead of blindly consuming large parts of a repository.
 
 AIS-RTS is designed around three core ideas: extract reliable structural facts from real codebases, classify meaning such as responsibilities and feature ownership, and answer natural-language scope queries with tight, actionable context. It supports progressive initialization for large projects, allowing users to scan one file, one folder, or one request area at a time, then expand outward through guided recursive suggestions. The long-term goal is to make AI-assisted coding safer, faster, and far more context-aware.
+
+Anti-Hallucination Principle
+
+AIS-RTS must reduce or eliminate project-level hallucination by ensuring that AI works from verified code facts whenever verification is possible. The system should extract and validate real files, symbols, parameters, dependencies, configs, and interfaces before they are used in planning or code generation. Inferred and suggested information must remain clearly labeled and must never be presented as verified project truth.
 
 # ais-rts
 AI Scope RTS
