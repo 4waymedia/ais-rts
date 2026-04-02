@@ -275,11 +275,3 @@ The Scope Relationship Tracking System is a codebase intelligence layer that tra
 
 We are building a context intelligence system for software projects. Instead of making AI read large parts of a repository blindly, this system identifies the exact files, classes, functions, dependencies, and operational relationships involved in a request, giving AI a precise scope map before any code is written.
 
-If you want, I can turn this into a polished markdown spec with sections like:
-
-Objectives
-Non-goals
-Architecture
-Entity model
-Relationship model
-Example outputs
