@@ -1,3 +1,9 @@
+AIS-RTS
+
+AIS-RTS is a Scope Relationship Tracking System that helps AI and developers understand exactly what parts of a codebase are involved in a requested change before code is modified. It transforms files, symbols, dependencies, configs, data entities, and workflows into a compact intelligence layer so AI can work from precise scope instead of blindly consuming large parts of a repository.
+
+AIS-RTS is designed around three core ideas: extract reliable structural facts from real codebases, classify meaning such as responsibilities and feature ownership, and answer natural-language scope queries with tight, actionable context. It supports progressive initialization for large projects, allowing users to scan one file, one folder, or one request area at a time, then expand outward through guided recursive suggestions. The long-term goal is to make AI-assisted coding safer, faster, and far more context-aware.
+
 # ais-rts
 AI Scope RTS
 
